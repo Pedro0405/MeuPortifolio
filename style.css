@@ -316,7 +316,7 @@ section.portfolio .flex {
     opacity: 0;
     transition: .5s;
 }
-.descricao {
+.descricao{
     position: absolute;
     top: 80%; /* Ajuste a posição vertical da descrição */
     left: 0;
@@ -326,7 +326,15 @@ section.portfolio .flex {
     color: white;
     padding: 10px;
 }
-
+.reposite{
+    position: absolute;
+    top: 100%; /* Ajuste a posição vertical da descrição */
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 120px;
+    padding: 10px;
+}
 .overlay:hover {
     opacity: 1;
 }
